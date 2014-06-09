@@ -18,7 +18,7 @@
     'version': '0.2',
     'author': 'Vizucom Oy',
     'website': 'http://www.vizucom.com',
-    'depends': ['sale_basic_extensions'],
+    'depends': ['sale_order_header'],
     'description': """
 Extra invoice fields from Sale Order
 ====================================

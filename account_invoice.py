@@ -6,7 +6,6 @@ from openerp.tools.translate import _
 
 
 class AccountInvoice(Model):
-    """ Add account.condition_text to invoice"""
 
     _inherit = "account.invoice"
 
@@ -14,5 +13,4 @@ class AccountInvoice(Model):
         'partner_shipping_id': fields.many2one('res.partner', "Delivery address"),                
         'customer_contact': fields.many2one('res.partner', "Customer's contact"),
         'header_text': fields.char(string='Invoice header', size=128, help="A header text that will be printed on the invoice.")
-        
     }
