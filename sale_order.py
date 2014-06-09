@@ -18,9 +18,10 @@ class sale_order(osv.Model):
         invoice_obj = self.pool.get('account.invoice')
 
         values = {
-                'partner_shipping_id': order.partner_shipping_id.id,
-                'customer_contact': order.customer_contact.id,
-                }
+            'partner_shipping_id': order.partner_shipping_id.id,
+            'customer_contact': order.customer_contact.id,
+            'header_text': order.header_text,
+        }
 
         invoice_obj.write(cr, uid, [res], values)
         

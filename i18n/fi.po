@@ -6,14 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 8.0alpha1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-08 22:35+0000\n"
-"PO-Revision-Date: 2014-06-08 22:35+0000\n"
+"POT-Creation-Date: 2014-06-09 09:43+0000\n"
+"PO-Revision-Date: 2014-06-09 09:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: account_invoice_extra_fields
+#: help:account.invoice,header_text:0
+msgid "A header text that will be printed on the invoice."
+msgstr "Otsikkoteksti, joka tulostuu laskulle."
 
 #. module: account_invoice_extra_fields
 #: field:account.invoice,customer_contact:0
@@ -29,6 +34,11 @@ msgstr "Toimitusosoite"
 #: model:ir.model,name:account_invoice_extra_fields.model_account_invoice
 msgid "Invoice"
 msgstr "Lasku"
+
+#. module: account_invoice_extra_fields
+#: field:account.invoice,header_text:0
+msgid "Invoice header"
+msgstr "Laskun otsikko"
 
 #. module: account_invoice_extra_fields
 #: model:ir.model,name:account_invoice_extra_fields.model_sale_order

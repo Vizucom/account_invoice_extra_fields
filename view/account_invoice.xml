@@ -9,6 +9,7 @@
 				<field name='partner_id' position='after'>
 					<field name='partner_shipping_id'/>
 					<field name='customer_contact' domain="[('is_company','=',False)]"/>
+					<field name='header_text'/>
 				</field>
             </field>
         </record>
