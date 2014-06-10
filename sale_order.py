@@ -21,6 +21,7 @@ class sale_order(osv.Model):
             'partner_shipping_id': order.partner_shipping_id.id,
             'customer_contact': order.customer_contact.id,
             'header_text': order.header_text,
+            'customer_order_number': order.customer_order_number,
         }
 
         invoice_obj.write(cr, uid, [res], values)
