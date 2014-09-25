@@ -11,6 +11,7 @@
 					<field name='customer_contact' domain="[('is_company','=',False)]"/>
 					<field name='header_text'/>
 					<field name='customer_order_number'/>
+					<field name='client_order_ref'/>
 				</field>
             </field>
         </record>

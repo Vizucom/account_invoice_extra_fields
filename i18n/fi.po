@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 8.0alpha1\n"
+"Project-Id-Version: OpenERP Server 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-10 09:08+0000\n"
-"PO-Revision-Date: 2014-06-10 09:08+0000\n"
+"POT-Creation-Date: 2014-09-25 07:04+0000\n"
+"PO-Revision-Date: 2014-09-25 07:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -31,14 +31,19 @@ msgid "Customer's contact"
 msgstr "Asiakkaan yhteyshenkilö"
 
 #. module: account_invoice_extra_fields
-#: field:account.invoice,partner_shipping_id:0
-msgid "Delivery address"
-msgstr "Toimitusosoite"
+#: field:account.invoice,client_order_ref:0
+msgid "Customer reference"
+msgstr "Asiakkaan viite"
 
 #. module: account_invoice_extra_fields
 #: model:ir.model,name:account_invoice_extra_fields.model_account_invoice
 msgid "Invoice"
 msgstr "Lasku"
+
+#. module: account_invoice_extra_fields
+#: field:account.invoice,partner_shipping_id:0
+msgid "Delivery address"
+msgstr "Toimitusosoite"
 
 #. module: account_invoice_extra_fields
 #: field:account.invoice,header_text:0

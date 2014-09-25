@@ -26,7 +26,11 @@ Adds the following fields to customer invoice:
 ----------------------------------------------
 * Customer contact person
 * Shipping address
-The default values get carried over from sale order. 
+* Customer order number
+* Customer reference
+* Invoice header
+
+All values get default values based on the sale order that triggered the invoice creation. 
 """,
     'data': [
         'view/account_invoice.xml',
