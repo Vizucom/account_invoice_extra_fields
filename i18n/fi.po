@@ -16,11 +16,6 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_invoice_extra_fields
-#: help:account.invoice,header_text:0
-msgid "A header text that will be printed on the invoice."
-msgstr "Otsikkoteksti, joka tulostuu laskulle."
-
-#. module: account_invoice_extra_fields
 #: field:account.invoice,customer_order_number:0
 msgid "Customer order number"
 msgstr "Asiakkaan tilausnumero"
