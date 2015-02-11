@@ -17,6 +17,8 @@ class sale_order(osv.Model):
         
         invoice_obj = self.pool.get('account.invoice')
 
+        values = {}
+        
         values = {
             'partner_shipping_id': order.partner_shipping_id.id,
             'customer_contact': order.customer_contact.id,

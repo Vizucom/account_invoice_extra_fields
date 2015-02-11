@@ -6,7 +6,7 @@
             <field name="model">account.invoice</field>
             <field name="inherit_id" ref="account.invoice_form"/>
 			<field name="arch" type="xml">
-				<field name='partner_id' position='after'>
+				<field name='fiscal_position' position='before'>
 					<field name='partner_shipping_id'/>
 					<field name='customer_contact' domain="[('is_company','=',False)]"/>
 					<field name='header_text'/>
