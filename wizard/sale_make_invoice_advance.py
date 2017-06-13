@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-from openerp.osv import fields, osv
-from openerp.tools.translate import _
+from openerp import models, fields, _
 import openerp.addons.decimal_precision as dp
 
 
-class SaleAdvancePaymentInv(osv.osv_memory):
+class SaleAdvancePaymentInv(models.TransientModel):
 
     _inherit = "sale.advance.payment.inv"
 
