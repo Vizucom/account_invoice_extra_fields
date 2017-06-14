@@ -1,6 +1,5 @@
 <openerp>
     <data>
-
         <record id="invoice_form_view" model="ir.ui.view">
             <field name="name">invoice.form.view.inherit</field>
             <field name="model">account.invoice</field>
@@ -14,6 +13,5 @@
 				</field>
             </field>
         </record>
-
     </data>
 </openerp>

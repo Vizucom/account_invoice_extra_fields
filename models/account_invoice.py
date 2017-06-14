@@ -6,7 +6,7 @@ class AccountInvoice(models.Model):
 
     _inherit = "account.invoice"
 
-    customer_contact = fields.Many2one('res.partner', "Customer's contact")
-    header_text = fields.Char('Invoice header', size=128)
-    customer_order_number = fields.Char('Customer order number')
-    client_order_ref = fields.Char('Customer reference')
+    customer_contact = fields.Many2one('res.partner', "Customer's Contact")
+    header_text = fields.Char('Invoice Header', size=128)
+    customer_order_number = fields.Char('Customer Order Number')
+    client_order_ref = fields.Char('Customer Reference')
